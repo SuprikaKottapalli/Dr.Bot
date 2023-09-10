@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+    background-color: #e6e6ff; /* Mild purple background color */
+    font-family: "Courier New", Courier, monospace; /* Monospace font */
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center horizontally */
+    width: 50%; /* Set container width to 50% of the viewport width */
+}
+
+/* Set the font size for the heading and button */
+h1 {
+    font-size: 75px; /* Adjust the font size as needed */
+    white-space: nowrap; /* Prevent line breaks */
+}
+
+/* Increase the font size for the specific text */
+.container p {
+    font-size: 45px; /* Adjust the font size as needed */
+    margin-top: 10px; /* Reduce the top margin */
+}
+
+/* Style the gender options (bold and font size) */
+.gender-options {
+    display: flex; /* Display options side by side */
+    justify-content: center; /* Center options horizontally */
+    margin-top: 20px; /* Add space below the text */
+}
+
+.gender-option {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 20px; /* Add spacing between the options */
+    font-size: 35px; /* Font size for options */
+}
+
+/* Style the radio input */
+.gender-option input[type="radio"] {
+    margin-right: 10px; /* Add spacing between the radio input and text */
+}
+
+/* Style the "Continue" button with more spacing */
+.continue-button {
+    background-color: #f5f5f5; /* Mild white background */
+    color: black; /* Black text color */
+    border: none;
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px 20px; /* Add padding */
+    cursor: pointer;
+    font-size: 45px; /* Font size for the button */
+    margin-top: 40px; /* Add more space below the options */
+}
